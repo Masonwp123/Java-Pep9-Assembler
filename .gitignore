@@ -1,5 +1,9 @@
 .gradle
 build
 
+### Test pep ###
+*.pep
+*.pepo
+
 ### IntelliJ IDEA ###
 .idea
