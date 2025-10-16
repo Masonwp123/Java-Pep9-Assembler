@@ -124,10 +124,8 @@ public class pepasm {
         addressCode = addressCode.strip();
 
         // Check if it is a label first
-        System.out.println(addressCode);
         if (p.LABELS.containsKey(addressCode)) {
             // Set code to the label value
-            System.out.println("label " + addressCode + " is " + p.LABELS.get(addressCode));
             addressCode = p.LABELS.get(addressCode);
         }
 
